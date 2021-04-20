@@ -1,6 +1,7 @@
 package org.secret_sharing
 
 import org.scalacheck.Prop.{BooleanOperators, forAll}
+import org.scalacheck.Prop.{forAll, propBoolean}
 import org.scalacheck.Properties
 
 class HashSpec extends Properties("Md5") {

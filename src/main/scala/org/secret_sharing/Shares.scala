@@ -1,6 +1,7 @@
 package org.secret_sharing
 
 import scala.util.Random
+import scala.collection.parallel.CollectionConverters._
 
 // k := min shares needed to decrypt secret
 // n := shares provided

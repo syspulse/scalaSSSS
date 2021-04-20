@@ -2,6 +2,8 @@ package org.secret_sharing
 
 import org.scalacheck.{Gen, Properties}
 import org.scalacheck.Prop.{BooleanOperators, forAll}
+import org.scalacheck.Prop.{forAll, propBoolean}
+
 import scala.util.Random.{shuffle, nextInt}
 
 class ShamirOpsSpec extends Properties("ShamirOps") {
